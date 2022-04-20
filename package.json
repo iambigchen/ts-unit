@@ -1,0 +1,22 @@
+{
+  "name": "ts-unit",
+  "version": "1.0.0",
+  "description": "ts-unit",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iambigchen/ts-unit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iambigchen/ts-unit/issues"
+  },
+  "homepage": "https://github.com/iambigchen/ts-unit#readme",
+  "devDependencies": {
+    "tsd": "^0.20.0"
+  }
+}
