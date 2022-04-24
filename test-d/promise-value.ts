@@ -1,4 +1,4 @@
-import {expectAssignable, expectType} from 'tsd';
+import {expectAssignable} from 'tsd';
 import type {PromiseValue} from '../index.d';
 
 type NumberPromise = Promise<number>;
