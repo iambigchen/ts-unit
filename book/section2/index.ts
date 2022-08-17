@@ -38,3 +38,8 @@ type Record2<K extends string | symbol | number, T extends any> = {[P in K]: T}
 type Record2Res = Record2<number, string>
 let record2: Record2Res = {1: 'a'}
 
+// 根据值的类型过滤key
+type FilterByValueType<T extends object, V> = {
+    [K in keyof T as T[K] extends V ? never : K]: T[K]
+}
+type FilterByValueTypeRes = FilterByValueType<{a: string, b: number}, number>
