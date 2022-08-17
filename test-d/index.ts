@@ -27,7 +27,6 @@ expectAssignable<{
 type ReadonlyEg = Readonly2<Eg>
 declare const readonlyEg: ReadonlyEg
 
-
 expectError(readonlyEg.age = 2)
 expectType<{
     readonly name: string,
